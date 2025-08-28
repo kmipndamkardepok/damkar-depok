@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Container } from '@/shared/components/ui/Container'; // Assuming alias is set up
 import { Menu, X, ChevronDown, Phone } from 'lucide-react';
 
