@@ -1,0 +1,218 @@
+/* 
+  Color accent generate from https://www.radix-ui.com/colors/custom 
+  Color that generated is primary-9: #d7263d 
+  With light background: #F5F7FA and dark background: #0B0F14
+*/
+:root, .light, .light-theme {
+  --primary-1: #f6f3f3;
+  --primary-2: #f6eeed;
+  --primary-3: #f5e1e0;
+  --primary-4: #fcd0cf;
+  --primary-5: #f9c2bf;
+  --primary-6: #f3b1af;
+  --primary-7: #e99d9a;
+  --primary-8: #e08180;
+  --primary-9: #d7263d;
+  --primary-10: #c70830;
+  --primary-11: #c4002e;
+  --primary-12: #67141c;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root, .light, .light-theme {
+      --primary-1: oklch(96.7% 0.0033 21.14);
+      --primary-2: oklch(95.5% 0.0088 21.14);
+      --primary-3: oklch(92.5% 0.0224 21.14);
+      --primary-4: oklch(89.5% 0.0489 21.14);
+      --primary-5: oklch(86.2% 0.064 21.14);
+      --primary-6: oklch(82.1% 0.0771 21.14);
+      --primary-7: oklch(77% 0.0925 21.14);
+      --primary-8: oklch(70.6% 0.1171 21.14);
+      --primary-9: oklch(57.1% 0.2087 21.14);
+      --primary-10: oklch(52.6% 0.2087 21.14);
+      --primary-11: oklch(51.7% 0.2087 21.14);
+      --primary-12: oklch(33.9% 0.1152 21.14);
+    }
+  }
+}
+
+.dark, .dark-theme {
+  --primary-1: #140c0c;
+  --primary-2: #201212;
+  --primary-3: #3c1012;
+  --primary-4: #530a12;
+  --primary-5: #64111a;
+  --primary-6: #761f25;
+  --primary-7: #902f34;
+  --primary-8: #ba3f45;
+  --primary-9: #d7263d;
+  --primary-10: #b43941;
+  --primary-11: #ff8e8e;
+  --primary-12: #ffd1ce;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    .dark, .dark-theme {
+      --primary-1: oklch(16.7% 0.0144 21.14);
+      --primary-2: oklch(20.1% 0.0231 21.14);
+      --primary-3: oklch(24.9% 0.0693 21.14);
+      --primary-4: oklch(28.8% 0.1033 21.14);
+      --primary-5: oklch(33.1% 0.1148 21.14);
+      --primary-6: oklch(38.2% 0.12 21.14);
+      --primary-7: oklch(45% 0.13 21.14);
+      --primary-8: oklch(54.4% 0.158 21.14);
+      --primary-9: oklch(57.1% 0.2087 21.14);
+      --primary-10: oklch(52.6% 0.158 21.14);
+      --primary-11: oklch(78.4% 0.1746 21.14);
+      --primary-12: oklch(90.2% 0.057 21.14);
+    }
+  }
+}
+
+/* 
+  Color accent generate from https://www.radix-ui.com/colors/custom 
+  Color that generated is secondary-9: #243062
+  With light background: #F5F7FA and dark background: #0B0F14
+*/
+:root, .light, .light-theme {
+  --secondary-1: #f4f4f5;
+  --secondary-2: #edf0f6;
+  --secondary-3: #e3e8f4;
+  --secondary-4: #d6def6;
+  --secondary-5: #c7d3f7;
+  --secondary-6: #b5c5f6;
+  --secondary-7: #9fb1ed;
+  --secondary-8: #8197e3;
+  --secondary-9: #243062;
+  --secondary-10: #354377;
+  --secondary-11: #43559b;
+  --secondary-12: #212c5e;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root, .light, .light-theme {
+      --secondary-1: oklch(96.8% 0.0018 270.6);
+      --secondary-2: oklch(95.4% 0.0084 270.6);
+      --secondary-3: oklch(93% 0.0173 270.6);
+      --secondary-4: oklch(90.3% 0.0342 270.6);
+      --secondary-5: oklch(86.9% 0.0517 270.6);
+      --secondary-6: oklch(82.7% 0.0713 270.6);
+      --secondary-7: oklch(76.9% 0.0877 270.6);
+      --secondary-8: oklch(69% 0.1151 270.6);
+      --secondary-9: oklch(32.8% 0.0893 270.6);
+      --secondary-10: oklch(39.8% 0.0893 270.6);
+      --secondary-11: oklch(47.2% 0.1151 270.6);
+      --secondary-12: oklch(31.3% 0.0893 270.6);
+    }
+  }
+}
+
+.dark, .dark-theme {
+  --secondary-1: #0b0e19;
+  --secondary-2: #121624;
+  --secondary-3: #1b2446;
+  --secondary-4: #222d5f;
+  --secondary-5: #2a3871;
+  --secondary-6: #344381;
+  --secondary-7: #3e4f94;
+  --secondary-8: #495dae;
+  --secondary-9: #5368bd;
+  --secondary-10: #475bac;
+  --secondary-11: #9ab2ff;
+  --secondary-12: #d7e1fe;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    .dark, .dark-theme {
+      --secondary-1: oklch(16.7% 0.0231 270.6);
+      --secondary-2: oklch(20.5% 0.0285 270.6);
+      --secondary-3: oklch(27% 0.0656 270.6);
+      --secondary-4: oklch(31.8% 0.0893 270.6);
+      --secondary-5: oklch(36.1% 0.0996 270.6);
+      --secondary-6: oklch(40.3% 0.1049 270.6);
+      --secondary-7: oklch(45% 0.1139 270.6);
+      --secondary-8: oklch(50.3% 0.1301 270.6);
+      --secondary-9: oklch(54.3% 0.134 270.6);
+      --secondary-10: oklch(49.7% 0.1301 270.6);
+      --secondary-11: oklch(77.7% 0.1176 270.6);
+      --secondary-12: oklch(91.1% 0.0404 270.6);
+    }
+  }
+}
+
+/* 
+  Color accent generate from https://www.radix-ui.com/colors/custom 
+  Color that generated is neutral-9: #0b0f14 in light and neutral-9: #f5f7fa
+  With light background: #F5F7FA and dark background: #0B0F14
+*/
+:root, .light, .light-theme {
+  --neutral-1: #f2f3f4;
+  --neutral-2: #eef0f2;
+  --neutral-3: #e4e6ea;
+  --neutral-4: #dadee3;
+  --neutral-5: #d2d6dc;
+  --neutral-6: #c9cfd6;
+  --neutral-7: #bcc3cc;
+  --neutral-8: #a7b0bb;
+  --neutral-9: #0b0f14;
+  --neutral-10: #25292f;
+  --neutral-11: #535a63;
+  --neutral-12: #1c2025;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root, .light, .light-theme {
+      --neutral-1: oklch(96.5% 0.0019 254.2);
+      --neutral-2: oklch(95.4% 0.0037 254.2);
+      --neutral-3: oklch(92.5% 0.0057 254.2);
+      --neutral-4: oklch(89.9% 0.0076 254.2);
+      --neutral-5: oklch(87.6% 0.0095 254.2);
+      --neutral-6: oklch(85.1% 0.0115 254.2);
+      --neutral-7: oklch(81.5% 0.0146 254.2);
+      --neutral-8: oklch(75.4% 0.0185 254.2);
+      --neutral-9: oklch(16.7% 0.0124 254.2);
+      --neutral-10: oklch(27.9% 0.0124 254.2);
+      --neutral-11: oklch(46.4% 0.0174 254.2);
+      --neutral-12: oklch(24.1% 0.0124 254.2);
+    }
+  }
+}
+
+.dark, .dark-theme {
+  --neutral-1: #0d0f12;
+  --neutral-2: #17191c;
+  --neutral-3: #212326;
+  --neutral-4: #282a2d;
+  --neutral-5: #2f3135;
+  --neutral-6: #383b3e;
+  --neutral-7: #46484c;
+  --neutral-8: #5f6165;
+  --neutral-9: #f5f7fa;
+  --neutral-10: #eceef1;
+  --neutral-11: #b1b4b8;
+  --neutral-12: #eceef1;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    .dark, .dark-theme {
+      --neutral-1: oklch(16.7% 0.0068 258.3);
+      --neutral-2: oklch(21.3% 0.0068 258.3);
+      --neutral-3: oklch(25.4% 0.0068 258.3);
+      --neutral-4: oklch(28.4% 0.0068 258.3);
+      --neutral-5: oklch(31.4% 0.0068 258.3);
+      --neutral-6: oklch(35% 0.0068 258.3);
+      --neutral-7: oklch(40.1% 0.0068 258.3);
+      --neutral-8: oklch(49.2% 0.0068 258.3);
+      --neutral-9: oklch(97.5% 0.0045 258.3);
+      --neutral-10: oklch(94.8% 0.0045 258.3);
+      --neutral-11: oklch(77% 0.0068 258.3);
+      --neutral-12: oklch(94.9% 0.0045 258.3);
+    }
+  }
+}

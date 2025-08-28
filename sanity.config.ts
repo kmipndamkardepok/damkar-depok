@@ -1,7 +1,7 @@
 'use client'
 
 /**
- * This configuration is used to for the Sanity Studio that’s mounted on the `\src\app\dashboard\[[...tool]]\page.tsx` route
+ * This configuration is used to for the Sanity Studio that’s mounted on the `\src\app\studio\[[...tool]]\page.tsx` route
  */
 
 import {defineConfig} from 'sanity'
@@ -11,7 +11,6 @@ import {visionTool} from '@sanity/vision'
 // Go to https://www.sanity.io/docs/api-versioning to learn how API versioning works
 import {apiVersion, dataset, projectId} from './src/sanity/env'
 import {schema} from './src/sanity/schemas/schema'
-// import {structure} from './src/sanity/structure'
 
 const structure = (S: any) =>
   S.list()
@@ -28,8 +27,9 @@ export default defineConfig({
   title: 'Damkar Depok',
   projectId: 'gwxe95ot',
   dataset: 'production',
-  basePath: '/dashboard',
-  // Add and edit the content schema in the './sanity/schemaTypes' folder
+  basePath: '/studio',
+
+  // Add and edit the content schema in the './sanity/schemas' folder
   schema,
   plugins: [
     structureTool({structure}),
